@@ -1,0 +1,150 @@
+body {
+    background-color:#320b2f(224, 219, 219);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 40px 0 40px 0;
+    color: rgb(255, 255, 255);
+
+}
+a{
+    text-decoration: none;
+}
+
+img {
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+
+
+header button {
+    padding: 8px 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #ffffff;
+    display: block;
+    margin:0 auto;
+    border-radius: 20px;
+}
+
+.about {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    color: black;
+}
+.left-about img {
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+.right-about h2 {
+    color: #000000;
+}
+.right-about {
+    margin: auto 0;
+    color: rgb(0, 0, 0);
+}
+#products {
+    width: 95%;
+    text-align: center;
+    margin: 40px auto;
+}
+#products h2 {
+    color: #000000;
+}
+.cards {
+    border: 1px solid #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.card {
+    width: 45%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    padding:0.3rem;
+    color: black;
+}
+#valorant{
+    background-color: rgb(255, 41, 41);
+}
+#elden{
+    background-color: rgb(255, 208, 22);
+    color:rgb(255, 255, 255);
+}
+#elden h3{
+    color:rgb(255, 255, 255);
+}
+#rdr{
+    background-color: rgb(141, 0, 0);
+    color: white;
+}
+#rdr h3{
+    color:white;
+}
+#uncharted{
+    background-color: rgb(6, 6, 6);
+    color: #ffffff;
+}
+#uncharted h3{
+    color: #ffffff;
+}
+#last{
+    background-color: #323030;
+    color: #ffffff;
+}
+#last h3{
+    color: #ffffff;
+}
+#stardew{
+    background-color: chocolate;
+}
+#undertale{
+    background-color: aqua;
+}
+#battle{
+    background-color: rgb(92, 146, 128);
+}
+.card img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card h3 {
+    color: #000000;
+}
+.card a button {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 8px 25px;
+    border: #000000 solid 1px;
+    border-radius: 0.4rem;
+    background-color: rgb(130, 255, 130);
+    transition: 0.2s ease-in;
+}
+.card a button:hover{
+    background-color:rgb(48, 160, 48) ;
+    color: white;
+}
+.card img{
+    width: 50%;
+    border-radius: 0.7rem;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
